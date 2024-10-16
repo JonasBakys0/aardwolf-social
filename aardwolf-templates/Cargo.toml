@@ -32,6 +32,11 @@ path = "../aardwolf-models"
 version = "0.1.0"
 path = "../aardwolf-yew-frontend"
 
+#-
+# Adding rust-i18n for handling localization
+[dependencies]
+rust-i18n = "3"
+
 #- 
 # Adding syn for template compilation
 [dependencies.syn]

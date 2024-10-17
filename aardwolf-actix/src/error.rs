@@ -2,7 +2,7 @@ use actix_web::{http::header::LOCATION, HttpResponse, ResponseError};
 use thiserror::Error;
 
 #[derive(Clone, Debug, Error)]
-#[error("Could not render template")]
+#[error("Could not render template test")]
 pub struct RenderError;
 
 impl ResponseError for RenderError {
